@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .parent {
+        padding: 10px;
+        background-color: rgba(10, 10, 10, 0.971);
+        width: 25%;
+        margin: 20px auto;
+        height: 420px;
+    }
+
+    .sub-div {
+        background-color: rgba(201, 190, 190, 0.44);
+        margin: 30px auto;
+        height: 330px;
+        width: 60%;
+    }
+
+    .input-div input {
+        background-color: rgb(219, 220, 220);
+        margin-top: 30px;
+        width: 186px;
+        height: 40px;
+        border-radius: 4px;
+        border-color: rgb(235, 227, 227);
+    }
+
+    .body-container {
+        margin: 25px 16px;
+    }
+
+    button{
+        background-color: rgb(211, 210, 209);
+        width: 40px;
+        height: 40px;
+        margin: 8px 4px;
+        border-radius: 4px;
+        
+        
+    }
+
+    .row1,.row2,.row3,.row4 {
+        display: flex;   
+    }
+    .bplus,.bminus,.bmul,.bdiv,.bequal {
+        background-color: black;
+        color: white;
+        border-right: 0.2px solid white;
+        border-top: 0.2px solid white;
+    }
+    .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b0{
+        border-color: 1.5px rgb(69, 65, 65);
+    }
+    .bC{
+        background-color: red;
+        color: white;
+    }
+</style>
+
+<body>
+
+    <div class="parent">
+        <div class="sub-div">
+            <div class="body-container">
+                <div class="input-div">
+                    <input type="text">
+                </div>
+                <div class="buttons-container">
+                    <div class="row1">
+                        <div class="r1c1"><button class="b7">7</button></div>
+                        <div class="r1c2"><button class="b8">8</button></div>
+                        <div class="r1c3"><button class="b9">9</button></div>
+                        <div class="r1c4"><button class="bplus">+</button></div>
+                    </div>
+                    <div class="row2">
+                        <div class="r2c1"><button class="b4">4</button></div>
+                        <div class="r2c2"><button class="b5">5</button></div>
+                        <div class="r2c3"><button class="b6">6</button></div>
+                        <div class="r2c4"><button class="bminus">-</button></div>
+                    </div>
+                    <div class="row3">
+                        <div class="r3c1"><button class="b1">1</button></div>
+                        <div class="r3c2"><button class="b2">2</button></div>
+                        <div class="r3c3"><button class="b3">3</button></div>
+                        <div class="r3c4"><button class="bmul">x</button></div>
+                    </div>
+                    <div class="row4">
+                        <div class="r4c1"><button class="bC">C</button></div>
+                        <div class="r4c2"><button class="b0">0</button></div>
+                        <div class="r4c3"><button class="bequal">=</button></div>
+                        <div class="r4c4"><button class="bdiv">/</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
